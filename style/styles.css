@@ -128,3 +128,161 @@ letter-spacing: 0px;
 color: #1A1B26;
 opacity: 1;
 }
+
+.PackageTitle{
+text-align: left;
+font: normal normal normal 25px/32px Dosis;
+letter-spacing: 0px;
+color: #1A1B26;
+opacity: 1;
+}
+
+.PackageCost{
+padding-top: 20px;
+text-align: left;
+font: normal normal normal 16px/20px SourceSansPro;
+letter-spacing: 0px;
+color: #1F51A8;
+opacity: 1;
+}
+
+.PackageText{
+padding-top: 20px;
+text-align: left;
+font: normal normal normal 16px/20px SourceSansPro;
+letter-spacing: 0px;
+color: #1A1B26;
+opacity: 1;
+}
+
+.imgSpring{
+    margin-top: 50px;
+}
+
+.PackageTitle2{
+    padding-top: 20px;
+    text-align: left;
+    font: normal normal normal 25px/32px Dosis;
+    letter-spacing: 0px;
+    color: #1A1B26;
+    opacity: 1;
+    }
+
+.imgCheese{
+    padding-top: 10px;
+}
+
+.AmenitiesTitle{
+    padding-top: 40px;
+    text-align: center;
+font: normal normal normal 35px/44px Dosis;
+letter-spacing: 0px;
+color: #FFFFFF;
+opacity: 1;
+}
+
+.AmenitiesText{
+    padding-top: 20px;
+    text-align: center;
+font: normal normal normal 16px/20px SourceSansPro;
+letter-spacing: 0px;
+color: #FFFFFF;
+opacity: 1;
+}
+
+.rowAmenities{
+    padding-top: 110px;
+    text-align: center;
+}
+
+.ImgText{
+    padding-top: 30px;
+    text-align: center;
+font: normal normal bold 20px/25px SourceSansProBold;
+letter-spacing: 0px;
+color: #FFFFFF;
+opacity: 1;
+}
+
+.box2{
+    margin-top: 90px;
+    width: 1000px;
+    height: 200px;
+    border: 1px solid;
+    background-color: #000324;
+}
+
+.textReserve{
+padding-top: 15px;
+color: #FFFFFF;
+text-align: center;
+font: normal normal normal 35px/44px Dosis;
+letter-spacing: 0px;
+color: #FFFFFF;
+opacity: 1;
+}
+
+.box3{
+    width: 1000px;
+    height: 200px;
+    border: 1px solid;
+    background-color: #000324;
+}
+
+.ImgBackground{
+    max-width: 100%;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.TextReserveRoom{
+text-align: left;
+font: normal normal normal 16px/20px SourceSansPro;
+letter-spacing: 0px;
+color: #E5FEFF;
+opacity: 1;
+}
+
+.ReserveCheckBtn{
+    margin-top: 35px;
+border: #000DC7;
+background-color: #006EDB;
+height: 29px;
+width: auto;
+text-align: center;
+font-family:  SourceSansPro;
+letter-spacing: 0px;
+color: #FFFFFF;
+opacity: 1;
+}
+
+
+.footer{
+    background-color: #000324;
+    height: 300px;
+    max-width: 100%;
+}
+
+.imgLogo2{
+/* background: transparent url(../assets/hotelMarkupAssets/Logo.png) 0% 0% no-repeat padding-box; */
+opacity: 1;
+padding-top: 20px;
+ }
+
+
+.footerText{
+margin-top: 50px;
+text-align: center;
+font: normal normal normal 16px/20px SourceSansPro;
+letter-spacing: 0px;
+color: #E5FEFF;
+opacity: 1;
+}
+.footerText2{
+    margin-top: 20px;
+    text-align: center;
+    font: normal normal normal 16px/20px SourceSansPro;
+    letter-spacing: 0px;
+    color: #E5FEFF;
+    opacity: 1;
+    }
