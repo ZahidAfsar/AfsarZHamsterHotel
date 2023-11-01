@@ -8,6 +8,11 @@
     font-family: SourceSansPro;
  }
 
+ @font-face{
+    src: url(../assets/hotelMarkupAssets/SourceSansPro-Bold.ttf);
+    font-family: SourceSansProBold;
+ }
+
 .navbar{
 justify-content: center;
 top: 0px;
@@ -54,7 +59,6 @@ padding-left: 0px;
 }
 
 .hamsterhome{
-    outline: red dashed 1px;
     display: block;
     padding-top: 85px;
 }
@@ -77,4 +81,50 @@ color: #1A1B26;
     padding-left: 20px;
     padding-top: 60px;
     padding-right:50px;
+}
+
+.box{
+    width: 400px;
+    height: 250px;
+    background-color: #000324;
+    opacity: 0.6;
+}
+
+.titleforcard{
+text-align: left;
+font: normal normal normal 25px/32px Dosis;
+letter-spacing: 0px;
+color: #1A1B26;
+opacity: 1;
+}
+
+.textforcard{
+text-align: left;
+font: normal normal bold 16px/20px SourceSansProBold;
+letter-spacing: 0px;
+color: #1A1B26;
+opacity: 1;
+}
+
+.textforcard2{
+    text-align: left;
+    font: normal normal normal 16px/20px SourceSansPro;
+    letter-spacing: 0px;
+    color: #1A1B26;
+    opacity: 1;
+    }
+
+.buttonReserve{
+    background-color: #004CC7;
+    font: normal normal bold 20px/25px SourceSansProBold;
+    border-radius: 0%;
+}
+
+.classPackage{
+padding-top: 90px;
+text-align: center;
+font: normal normal normal 35px/44px Dosis;
+letter-spacing: 0px;
+color: #1A1B26;
+opacity: 1;
 }
