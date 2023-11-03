@@ -105,6 +105,13 @@ letter-spacing: 0px;
 color: #1A1B26;
 opacity: 1;
 }
+.textforcard11{
+    text-align: left;
+    font: normal normal bold 16px/20px SourceSansProBold;
+    letter-spacing: 0px;
+    color: #1A1B26;
+    opacity: 1;
+    }
 
 .textforcard2{
     text-align: left;
@@ -457,4 +464,188 @@ padding-top: 30px;
        padding-left: 0px;
        padding-right: 0px;
     }
+}
+
+@media screen and (max-width: 500px) {
+    .navbar1{
+        display: block;
+    }
+
+    .navbarBig{
+        display: none;
+    }
+}
+
+@media screen and (min-width: 500px) {
+    .navbar1{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .awards1{
+        position: absolute;
+        left: 280px;
+        top: 1150px;
+        padding-left: 0px;
+        width: 120px;
+        height: 100px;
+    }
+    .awards2{
+        position: absolute;
+        left: 280px;
+        top: 1000px;
+        padding-left: 0px;
+        width: 120px;
+        height: 100px;
+    }
+    .awards3{
+        position: absolute;
+        left: 280px;
+        top: 1330px;
+        padding-left: 0px;
+        width: 120px;
+        height: 100px;
+    }
+}
+
+@media screen and (min-width: 500px) {
+    .Mobile{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .normal{
+        display: none;
+    }
+    .WelcomeTextM{
+        color: #1A1B26;
+        font-family: Dosis;
+        font-size: 15px;
+        padding-top: 35px;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .classBigCard{
+        display: none;
+    }
+    .bigImgBackground{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .NormalPackage{
+        display: none;
+    }
+}
+@media screen and (min-width: 500px) {
+    .MobilePackage{
+        display: none;
+    }
+}
+@media screen and (max-width: 500px) {
+    .small-input {
+        width: 50px;
+        height: 30px;
+    }
+    .ReserveCheckBtn{
+        margin-top: 26px;
+    border: #000DC7;
+    background-color: #006EDB;
+    height: 30px;
+    width: auto;
+    text-align: center;
+    font-family:  SourceSansPro;
+    letter-spacing: 0px;
+    font-size: 10px;
+    color: #FFFFFF;
+    opacity: 1;
+    }
+    .TextReserveRoom{
+        text-align: left;
+        font: normal normal normal 6px/10px SourceSansPro;
+        letter-spacing: 0px;
+        color: #E5FEFF;
+        opacity: 1;
+        }
+    .ReserveImg{
+       padding-left: 0px;
+       padding-right: 0px;
+    }
+}
+
+@media screen and (min-width: 500px) {
+    .MobileImgSmall{
+        display: none;
+    }
+}
+@media screen and (max-width: 500px) {
+    .NormalImgBig{
+        display: none;
+    }
+    .HeaderText{
+        text-align: center;
+        font: normal normal normal 25px/57px Dosis;
+        letter-spacing: 0px;
+        color: #E5FEFF;
+        padding-top: 30px;
+        }
+        .HeaderText2{
+            text-align: center;
+            font: normal normal normal 16px/20px SourceSansPro;
+            letter-spacing: 0px;
+            color: #E5FEFF;
+            opacity: 1;
+            padding-top: 30px;
+            }
+}
+.dropdown-toggle{
+    color: white;
+}
+
+.LogoSmallMobile{
+    background-color: #000324;
+}
+.navbar1{
+    background: #000324;
+    background-color: #000324;
+    color: #000324;
+}
+
+.ImgSmallCard{
+    width: 200px;
+    height: 200px;
+}
+
+.CardTextSmall{
+    font-size: 12px;
+}
+
+@media screen and (max-width: 500px) {
+.textforcard{
+    font-size: 10px;
+}
+.textforcard2{
+    font-size: 10px;
+}
+.textforcard23{
+    font-size: 8px;
+}
+.textforcard11{
+    font-size: 8px;
+}
+.buttonReserve{
+    background-color: #004CC7;
+    font: normal normal bold 10px/15px SourceSansProBold;
+    text-align: justify;
+    border-radius: 0%;
+    position: absolute;
+    top: 20px;
+    left: 330px;
+    height: 20px;
+}
 }

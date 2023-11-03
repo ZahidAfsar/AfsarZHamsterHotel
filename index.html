@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="style/styles.css">
 </head>
   <body>   
-      <nav class="navbar" style="background-color: #000324;">
+      <nav class="navbar navbarBig" style="background-color: #000324;">
         <ul class="nav align-items-end ml-auto">
             <li class="nav-item textNavBar">
               <a class="nav-link active" aria-current="page" href="#">Overview</a>
@@ -35,6 +35,23 @@
           </ul>
       </nav>
 
+      <nav class="navbar navbar1 navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid navbar1">
+         <img class="LogoSmallMobile" src="./assets/hotelMarkupAssets/Logo.png" alt="LogoSmall">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Dropdown
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Overview</a></li>
+                  <li><a class="dropdown-item" href="#">Rooms</a></li>
+                  <li><a class="dropdown-item" href="#">Packages</a></li>
+                  <li><a class="dropdown-item" href="#">Contact</a></li>
+                  <li><a class="dropdown-item" href="#">Reserve</a></li>
+                </ul>
+          </div>
+        </div>
+      </nav>
+
       <div class="container-fluid imgSpace BackGroundHeader" >
         <div class="row">
           <p class="centerdBox HeaderText" >Run on the wheel of luxury.</p>
@@ -43,7 +60,7 @@
               </div>
     </div>
 
-    <div class="container">
+    <div class="container normal">
     <div class="row">
       <div class="col hamsterhome">
         <img src="./assets/hotelMarkupAssets/hamsterhomejpg.jpg" alt="hamster home" width="416px" height="500px">
@@ -59,15 +76,31 @@
     </div>
   </div>    
 </div>
+<div class="container Mobile">
+  <div class="row">
+    <div class="col hamsterhome">
+      <img src="./assets/hotelMarkupAssets/hamsterhomejpg.jpg" alt="hamster home" width="316px" height="200px">
+  </div>
+  <div class="col-8 WelcomeText WelcomeTextM">
+    <h1>Welcome to a hamster's paradise</h1>
+    <h6>Nestled in the heart of Cavia California, La Petite Maison is a luxury hotel designed for the small mammal with extravagance in mind. Escape to the warm comforts of stunning rooms, a relaxing spa, and a pool with a beach side view.
+      <h6> Inspired by the warm beauty of the California Coast, we invite you to enjoy the rich accommodations along with our unmatched luxury. Discover the satisfaction of indulging in our quality rooms, and thank you for choosing La Petite Maison.</h6>
+      <img class="awards awards1" src="./assets/hotelMarkupAssets/awardfinest.png" alt="awardfinest">
+      <img class="awards awards2" src="./assets/hotelMarkupAssets/awardsatisfaction.png" alt="satisfaction">
+      <img class="awards awards3" src="./assets/hotelMarkupAssets/awardgenuine.png" alt="genuine">
+      
+  </div>
+</div>    
+</div>
 <br>
 <br>
 <br>
 <br>
-<div class="container-fluid imgSpace" style="background-image: url(./assets/hotelMarkupAssets/bg2.jpg); height: 738px;">
+<div class="container-fluid bigImgBackground imgSpace" style="background-image: url(./assets/hotelMarkupAssets/bg2.jpg); height: 738px;">
 <div class="row">
   <div class="row row-cols-1 row-cols-md-5 g-5 d-flex justify-content-center row-cols-sm-4">
     <div class="col">
-      <div class="card card1">
+      <div class="card classBigCard card1">
         <img src="./assets/hotelMarkupAssets/room1.jpg" class="card-img-top" alt="...">
         <div class="card-body">
           <h5 class="card-title titleforcard">Queen Room</h5>
@@ -87,7 +120,7 @@
       </div>
     </div>
     <div class="col">
-      <div class="card card2">
+      <div class="card classBigCard card2">
         <img src="./assets/hotelMarkupAssets/room3.jpg" class="card-img-top" alt="...">
         <div class="card-body">
           <h5 class="card-title titleforcard">King Room</h5>
@@ -106,7 +139,7 @@
       </div>
     </div>
     <div class="col">
-      <div class="card card3">
+      <div class="card classBigCard card3">
         <img src="./assets/hotelMarkupAssets/room2.jpg" class="card-img-top" alt="...">
         <div class="card-body">
           <h5 class="card-title titleforcard">Beach Side Suite</h5>
@@ -127,13 +160,77 @@
 </div>
 </div>
 </div>
-
+<div class="container-fluid imgSpace" style="background-image: url(./assets/hotelMarkupAssets/bg2.jpg); height: 738px;">
+  <div class="row" style="padding-top: 40px;">
+<div class="card" style="max-width: 400px; height: 200px;">
+  <div class="row">
+    <div class="col-6">
+      <img class="ImgSmallCard" src="./assets/hotelMarkupAssets/room1.jpg" class="img-fluid rounded-start" alt="...">
+    </div>
+    <div class="col-6">
+      <div class="card-body">
+        <h5 class="card-title titleforcard CardTextSmall">Queen Room</h5>
+        <p class="card-text textforcard CardTextSmall">850 SQ FT room with city view</p>
+        <p class="card-text textforcard2 CardTextSmall">
+          <ul class="textforcard2" >
+            <li>One queen sized bed</li>
+            <li>Seed Bar, fireplace and large balcony</li>
+            <li>Small Kitchen with a refrigerator</li>
+          </ul></p>
+        <a href="#" class="btn btn-primary buttonReserve buttonReserve1">Reserve</a>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="card" style="max-width: 400px; height: 200px;">
+  <div class="row">
+    <div class="col-6">
+      <img class="ImgSmallCard" src="./assets/hotelMarkupAssets/room3.jpg" class="img-fluid rounded-start" alt="...">
+    </div>
+    <div class="col-6">
+      <div class="card-body">
+        <h5 class="card-title titleforcard CardTextSmall">King Room</h5>
+        <p class="card-text textforcard CardTextSmall">950 SQ FT room with beach view</p>
+        <p class="card-text textforcard2 CardTextSmall">
+          <ul class="textforcard2" >
+            <li>One King size bed</li>
+            <li>Seed Bar, fireplace and large balcony</li>
+            <li>Small kitchen with a refrigerator and stove</li>
+          </ul></p>
+        <a href="#" class="btn btn-primary buttonReserve buttonReserve1">Reserve</a>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="card" style="max-width: 400px; height: 200px;">
+  <div class="row">
+    <div class="col-6">
+      <img class="ImgSmallCard" src="./assets/hotelMarkupAssets/room2.jpg" class="img-fluid rounded-start" alt="...">
+    </div>
+    <div class="col-6">
+      <div class="card-body">
+        <h5 class="card-title titleforcard CardTextSmall">Beach Side Suite</h5>
+        <p class="card-text textforcard11 CardTextSmall">1500 SQ FT Suite with beach view</p>
+        <p class="card-text textforcard2 CardTextSmall">
+          <ul class="textforcard23" >
+            <li>One California king size bed</li>
+              <li>Second room with fireplace, hot tub and balcony</li>
+              <li>Seed Bar and coffee station</li>
+              <li>Full Kitchen with a refrigerator, stove, and island</li>
+          </ul></p>
+        <a href="#" class="btn btn-primary buttonReserve buttonReserve1">Reserve</a>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+</div>
 
 <div class="classPackage">
   <p>Packages</p>
 </div>
 <br>
-<div class="container">
+<div class="container NormalPackage">
   <div class="row">
   <div class="col-5">
   <img src="./assets/hotelMarkupAssets/hamsterwedding.jpg" alt="hamsterwedding" width="541px" height="234px">
@@ -147,6 +244,28 @@
   <h4 class="PackageCost" >Starting US $1,500.00</h4>
   <p class="PackageText">Feel the warmth of the beach as the flames in your hearts ignite during our romantic beach side wedding. All wedding packages include catering, an open bar, and one tier wedding cake (9" Vanilla standard cake). A private dinner for your closets family members and friends will be provided after the ceremony.</p>
   <img class="imgSpring" src="./assets/hotelMarkupAssets/hamsterspring.jpg" alt="hamsterSpring" width="541px" height="234px">
+  <h2 class="PackageTitle2">Cheese and Seed Tour Package</h2>
+  <h4 class="PackageCost" >Starting US $1,200.00</h4>
+  <p class="PackageText" >Immerse yourself in the flavors of Cavia with our Cheese and Seed tour. We consulted with connoisseurs from around the globe to bring you the best flavors that nature has to offer, and create our cheeses right here at our local creamery. Cheese and seeds are served all day and nightly spa treatment is provided after dinner.</p>
+
+</div>
+
+ </div>
+</div>
+<div class="container MobilePackage">
+  <div class="row">
+  <div class="col">
+  <img src="./assets/hotelMarkupAssets/hamsterwedding.jpg" alt="hamsterwedding" width="341px" height="234px">
+  <h2 class="PackageTitle2">Full Bloom Package</h2>
+  <h4 class="PackageCost" >Starting US $1,000.00</h4>
+  <p class="PackageText"> Enjoy the shade of our cherry trees as you join us during our spring time celebration. We invite you to our orchards for cherry, strawberry, and apple picking that is open all day. We end each evening with fresh, vegetable centric dinners along with a live show from local musicians.</p>
+  <img class="imgCheese" src="./assets/hotelMarkupAssets/hamstercheese.jpg" alt="cheese" width="341px" height="234px">
+ </div>
+ <div class="col">
+  <h2 class="PackageTitle">Beach Wedding Package</h2>
+  <h4 class="PackageCost" >Starting US $1,500.00</h4>
+  <p class="PackageText">Feel the warmth of the beach as the flames in your hearts ignite during our romantic beach side wedding. All wedding packages include catering, an open bar, and one tier wedding cake (9" Vanilla standard cake). A private dinner for your closets family members and friends will be provided after the ceremony.</p>
+  <img class="imgSpring" src="./assets/hotelMarkupAssets/hamsterspring.jpg" alt="hamsterSpring" width="341px" height="234px">
   <h2 class="PackageTitle2">Cheese and Seed Tour Package</h2>
   <h4 class="PackageCost" >Starting US $1,200.00</h4>
   <p class="PackageText" >Immerse yourself in the flavors of Cavia with our Cheese and Seed tour. We consulted with connoisseurs from around the globe to bring you the best flavors that nature has to offer, and create our cheeses right here at our local creamery. Cheese and seeds are served all day and nightly spa treatment is provided after dinner.</p>
@@ -212,7 +331,10 @@
 </div>
 
 <div class="container d-flex justify-content-center ReserveImg">
-  <img src="./assets/hotelMarkupAssets/hamsterreserve.jpg" alt="Reserve" width="1000px" height="400px">
+  <img class="NormalImgBig"  src="./assets/hotelMarkupAssets/hamsterreserve.jpg" alt="Reserve" width="1000px" height="400px">
+</div>
+<div class="container d-flex justify-content-center ReserveImg">
+  <img class="MobileImgSmall" src="./assets/hotelMarkupAssets/hamsterreserve.jpg" alt="Reserve" width="100%" height="300px">
 </div>
 
 <br>
