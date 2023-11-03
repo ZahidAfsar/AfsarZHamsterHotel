@@ -1,7 +1,12 @@
-# AfsarZHamsterHotel
-//Zahid Afsar
-//11-3-23
-//HamsterHotel
+# AfsarZ Hamster Hotel
+// Zahid Afsar
+<br>
+// 11-3-23
+<br>
+// HamsterHotel
+<br>
 // create this website
-// Peer Reviewed by :
+<br>
+// Peer Reviewed by Adrian Martinez
+<br>
 // Peer comment :
