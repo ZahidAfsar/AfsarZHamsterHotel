@@ -56,6 +56,7 @@ opacity: 1px;
 .imgSpace{
 padding-right: 0px;
 padding-left: 0px;
+/* background: no-repeat; */
 }
 
 .hamsterhome{
@@ -658,5 +659,10 @@ padding-top: 30px;
     }
 }
 
+@media screen and (max-width: 500px) {
+    .MobileCardBG{
+        background-image: url(../assets/hotelMarkupAssets/bg2.jpg);
+    }
+}
 
 
